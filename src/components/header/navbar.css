@@ -1,0 +1,16 @@
+/* Add this to your main CSS file */
+.nav-link {
+  position: relative;
+  padding-bottom: 6px;
+  color: #000;
+}
+
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: rgb(6, 6, 6); /* Change to your preferred color */
+}

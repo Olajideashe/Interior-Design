@@ -1,0 +1,7 @@
+footer input::placeholder {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+footer .form-check-input:checked {
+  background-color: #5a3e2b;
+}

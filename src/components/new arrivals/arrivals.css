@@ -1,0 +1,10 @@
+.horizontal-scroll {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 1rem;
+}
+
+.product-card {
+  scroll-snap-align: start;
+}
