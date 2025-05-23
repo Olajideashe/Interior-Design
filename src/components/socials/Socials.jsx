@@ -1,8 +1,8 @@
 import React from 'react'
-import socials1 from '../../assets/socials1.png'
-import socials2 from '../../assets/socials2.png'
-import socials3 from '../../assets/socials3.png'
-import socials4 from '../../assets/socials4.png'
+import socials1 from '/socials1.png'
+import socials2 from '/socials2.png'
+import socials3 from '/socials3.png'
+import socials4 from '/socials4.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 

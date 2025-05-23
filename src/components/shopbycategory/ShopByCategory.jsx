@@ -1,6 +1,6 @@
 import React from 'react';
-import left from '../../assets/left.png';
-import right from '../../assets/right.png';
+import left from '/left.png';
+import right from '/right.png';
 import './ShopByCategory.css'; // for custom styles
 
 function ShopByCategory() {

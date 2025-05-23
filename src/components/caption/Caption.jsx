@@ -1,6 +1,6 @@
 import React from 'react';
-import capup from '../../assets/capup.png';
-import capdwn from '../../assets/capdwn.png';
+import capup from '/capup.png'
+import capdwn from '/capdwn.png';
 
 function CaptionSection() {
     return (

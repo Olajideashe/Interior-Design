@@ -1,8 +1,8 @@
 import React from 'react'
-import sofa1 from '../../assets/sofa1.png'
-import sofa2 from '../../assets/sofa2.png'
-import sofa3 from '../../assets/sofa3.png'
-import sofa4 from '../../assets/sofa4.png'
+import sofa1 from '/sofa1.png'
+import sofa2 from '/sofa2.png'
+import sofa3 from '/sofa3.png'
+import sofa4 from '/sofa4.png'
 
 function Arrivals() {
     const products = [

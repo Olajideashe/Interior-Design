@@ -1,10 +1,10 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Logo from '../../assets/logo.png';
-import cart from '../../assets/Cart.png';
-import user from '../../assets/user.png';
-import search from '../../assets/search.png';
+import Logo from '/logo.png';
+import cart from '/Cart.png';
+import user from '/user.png';
+import search from '/search.png';
 import './navbar.css';
 
 function ColorSchemesExample() {
