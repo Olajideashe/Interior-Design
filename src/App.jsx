@@ -1,27 +1,30 @@
-import React from 'react'
-import Navbar from './components/header/Navbar'
-import Hero from './components/hero/Hero'
-import Advert from './components/advert/Advert'
-import Arrivals from './components/new arrivals/Arrivals'
-import ShopByCategory from './components/shopbycategory/ShopByCategory'
-import ShopByRoom from './components/shopbyroom/ShopByRoom'
-import CaptionSection from './components/caption/Caption'
-import Socials from './components/socials/Socials'
-import Footer from './components/footer/Footer'
+import { Route, Routes } from 'react-router'
+import MainPage from './pages/MainPage'
+import FurnituresView from './pages/furnitures/FurnituresView'
+import AboutView from './pages/about/AboutView'
+import AccessoriesView from './pages/accessories/AccessoriesView'
+import DecorView from './pages/decor/DecorView'
+import RugsView from './pages/rugs/RugsView'
+import LightView from './pages/lights/LightView'
+import NewinView from './pages/newin/NewinView'
+import SiginView from './pages/signin/SigninView'
 
 
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Advert />
-      <Arrivals />
-      <ShopByCategory />
-      <CaptionSection />
-      <ShopByRoom />
-      <Socials />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<MainPage />}/>
+        <Route path="/newin" element={<NewinView />}/>
+        <Route path="/furnitures" element={<FurnituresView />}/>
+        <Route path="/lights" element={<LightView />}/>
+        <Route path="/rugs" element={<RugsView />}/>
+        <Route path="/decor" element={<DecorView />}/>
+        <Route path="/accessories" element={<AccessoriesView />}/>
+        <Route path="/about" element={<AboutView />}/>
+        <Route path="/signin" element={<SiginView />}/>
+      </Routes>
+
     </>
   )
 }
