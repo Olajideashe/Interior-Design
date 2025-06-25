@@ -8,6 +8,7 @@ import RugsView from './pages/rugs/RugsView'
 import LightView from './pages/lights/LightView'
 import NewinView from './pages/newin/NewinView'
 import SiginView from './pages/signin/SigninView'
+import SignupView from './pages/signup/SignupView'
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/accessories" element={<AccessoriesView />}/>
         <Route path="/about" element={<AboutView />}/>
         <Route path="/signin" element={<SiginView />}/>
+        <Route path="/signup" element={<SignupView />}/>
       </Routes>
 
     </>
